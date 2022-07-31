@@ -1,4 +1,6 @@
 const React = require('react')
+ 
+
 
 const myStyle = {
     color: '#ffffff',
@@ -7,7 +9,18 @@ const myStyle = {
 
 class Index extends React.Component {
     render() {
-        return (<h1 style={myStyle}>Pokemon Index Page</h1>)
+        return (
+            <div>
+                <h1 style={myStyle}>Pokemon Index Page</h1>
+                <ul>
+                <p>Bulbasaur</p>              <p>Ivysaur</p> 
+                <p>Venusaur</p>              
+                <p>Charmander</p> 
+                <p>Squirtle</p> 
+                <p>Wartortle</p>
+                </ul> 
+            </div>
+        )
         
     }
 }
