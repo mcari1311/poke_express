@@ -13,11 +13,12 @@ class Index extends React.Component {
             <div>
                 <h1 style={myStyle}>Pokemon Index Page</h1>
                 <ul>
-                <p>Bulbasaur</p>              <p>Ivysaur</p> 
-                <p>Venusaur</p>              
-                <p>Charmander</p> 
-                <p>Squirtle</p> 
-                <p>Wartortle</p>
+                <a href="/pokemo/0" ><p>Bulbasaur</p></a>             
+                <a href="/pokemo/1"> <p>Ivysaur</p></a>
+                <a href="/pokemo/2"><p>Venusaur</p></a>             
+                <a href="/pokemo/3"><p>Charmander</p></a>
+                <a href="/pokemo/4"> <p>Squirtle</p></a>
+                <a href="/pokemo/5"><p>Wartortle</p></a>
                 </ul> 
             </div>
         )
